@@ -1,0 +1,33 @@
+{
+	"name": "pi-kilo",
+	"version": "1.0.0",
+	"description": "Kilo Code Gateway provider for pi — cached catalog, lazy model registration, OAuth device login",
+	"type": "module",
+	"license": "MIT",
+	"keywords": [
+		"pi",
+		"pi-extension",
+		"kilo",
+		"provider"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hakergeniusz/pi-kilo.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hakergeniusz/pi-kilo/issues"
+	},
+	"homepage": "https://github.com/hakergeniusz/pi-kilo#readme",
+	"pi": {
+		"extensions": [
+			"./index.ts"
+		]
+	},
+	"engines": {
+		"node": ">=22.0.0"
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-ai": "*"
+	}
+}
